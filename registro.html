@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Fan Club</h1>
+</header>
+
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="registro.html">Unirse</a>
+</nav>
+
+<main>
+    <h2>Inscripción al Fan Club</h2>
+
+    <form>
+        <h3>Datos Personales</h3>
+
+        <label for="usuario">Nombre de Usuario:</label>
+        <input type="text" id="usuario" placeholder="Slayer99" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br><br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" required><br><br>
+
+        <label for="fecha">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha" required><br><br>
+
+        <h3>Preferencias</h3>
+
+        <label for="favorito">Personaje Favorito:</label>
+        <select id="favorito">
+            <option>Max Verstappen</option>
+            <option>Charles Leclerc</option>
+            <option>Lewis Hamilton</option>
+        </select><br><br>
+
+        <h3>Tipo de Membresía</h3>
+
+        <input type="radio" name="membresia" id="gratis">
+        <label for="gratis">Membresía Gratuita</label><br>
+
+        <input type="radio" name="membresia" id="vip">
+        <label for="vip">Membresía VIP</label><br><br>
+
+        <h3>Términos</h3>
+
+        <input type="checkbox" id="terminos" required checked>
+        <label for="terminos">Acepto los términos y recibir novedades</label><br><br>
+
+        <button type="submit">Registrarse</button>
+    </form>
+</main>
+
+<footer>
+    <p>© 2026</p>
+</footer>
+
+</body>
+</html>
